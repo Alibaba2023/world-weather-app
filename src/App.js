@@ -1,16 +1,16 @@
 import { Route, Routes } from 'react-router-dom';
 import './App.css';
 import Header from './components/Header';
-import Home from './components/Home';
-import Details from './components/Details';
+import CountryList from './components/countryList';
+import Weather from './components/weather';
 
 function App() {
   return (
     <div>
       <Header />
       <Routes>
-        <Route path="/" element={<Home />} />
-        <Route path="/details" element={<Details />} />
+        <Route path="/" element={<CountryList />} />
+        <Route path="/details" element={<Weather />} />
       </Routes>
     </div>
   );

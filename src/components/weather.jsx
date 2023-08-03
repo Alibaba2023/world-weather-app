@@ -5,7 +5,7 @@ import { useSelector } from 'react-redux/es/hooks/useSelector';
 import { getWeather } from '../redux/weather/weatherSlice';
 import State from './States';
 
-const Details = () => {
+const Weather = () => {
   const { countryStates, hasError } = useSelector((store) => store.countryStates);
   const { weatherDetails, isLoading } = useSelector((store) => store.weather);
   const dispatch = useDispatch();
@@ -51,4 +51,4 @@ const Details = () => {
   );
 };
 
-export default Details;
+export default Weather;

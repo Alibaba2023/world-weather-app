@@ -5,7 +5,7 @@ import { getCountries } from '../redux/countries/countriesSlice';
 import Country from './country';
 import { getCountryStates } from '../redux/states/statesSlice';
 
-const Home = () => {
+const CountryList = () => {
   const dispatch = useDispatch();
 
   const handleClick = (country) => {
@@ -33,4 +33,4 @@ const Home = () => {
   );
 };
 
-export default Home;
+export default CountryList;
