@@ -38,10 +38,10 @@ const Details = () => {
           weatherDetails.map((state) => (
             <State
               key={state.id}
-              province={state.province}
+              countryState={state.countryState}
               icon={state.icon}
-              condition={state.condition}
-              temp={state.temp}
+              weatherCondition={state.weatherCondition}
+              temperature={state.temperature}
               date={state.date}
             />
           ))

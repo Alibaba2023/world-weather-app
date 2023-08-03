@@ -9,11 +9,11 @@ export const getWeather = createAsyncThunk(
     );
     const data = await response.json();
     return data.forecast.forecastday.map((day) => ({
-      province: data.location.region,
+      countryState: data.location.region,
       date: day.date,
-      condition: day.day.condition.text,
+      weatherCondition: day.day.condition.text,
       icon: day.day.condition.icon,
-      temp: day.day.avgtemp_c,
+      temperature: day.day.avgtemp_c,
       id: Date.now(),
     }));
   },
