@@ -26,8 +26,8 @@ describe('Header', () => {
 
   it('it has a image element', () => {
     render(header);
-    const img = screen.getByRole('img');
-    expect(img).toBeInTheDocument();
+    const img = screen.queryByRole('img');
+    expect(img).not.toBeInTheDocument();
   });
 
   it('it does not have a p element', () => {

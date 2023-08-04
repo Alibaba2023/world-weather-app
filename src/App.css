@@ -24,7 +24,6 @@
 body {
   font-family: 'Lato', sans-serif;
   background-color: rgb(255, 1, 213);
-  min-width: 800px;
 }
 
 html {
@@ -37,7 +36,7 @@ html {
   align-items: center;
   height: 15vh;
   padding: 1rem 15%;
-  background-color: rgb(253, 4, 158);
+  background-color: rgba(248, 33, 98, 0.7);
 }
 
 .header-heading-container {
@@ -70,7 +69,7 @@ html {
 .country-card {
   border-radius: 9px;
   overflow: hidden;
-  background-color: rgba(248, 33, 115, 0.7);
+  background-color: rgba(248, 33, 98, 0.7);
   padding: 2rem;
 }
 
@@ -83,7 +82,7 @@ html {
 
 .flag-image {
   width: 100%;
-  height: 12rem;
+  height: 10rem;
 }
 
 .weather-card-container {
@@ -103,17 +102,6 @@ html {
   align-items: center;
   background-color: rgba(248, 33, 98, 0.7);
   padding: 2rem;
-  border-radius: 9px;
-}
-
-.weather-heading {
-  display: grid;
-  grid-template-columns: repeat(2, 1fr);
-  column-gap: 3rem;
-  background-color: rgba(248, 33, 98, 0.7);
-  padding: 2rem;
-  text-align: center;
-  margin: 2rem 10%;
   border-radius: 9px;
 }
 
@@ -155,5 +143,19 @@ html {
   .country-card-container {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
+  }
+
+  html {
+    font-size: 52%;
+  }
+}
+
+@media screen and (max-width: 650px) {
+  .weather-card-container {
+    grid-template-columns: 1fr;
+  }
+
+  html {
+    font-size: 42%;
   }
 }

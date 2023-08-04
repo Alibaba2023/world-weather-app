@@ -29,10 +29,6 @@ const Weather = () => {
 
   return (
     <>
-      <div className="weather-heading">
-        <h2>Today</h2>
-        <h2>Tomorrow</h2>
-      </div>
       <div className="weather-card-container">
         {
           weatherDetails.map((state) => (

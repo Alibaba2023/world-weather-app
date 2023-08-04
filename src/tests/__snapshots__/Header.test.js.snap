@@ -12,15 +12,10 @@ Object {
           <div
             class="header-heading-container"
           >
-            <img
-              alt="clouds-and-sun.png"
-              class="logo-image"
-              src="clouds-and-sun.png"
-            />
             <h1
               class="header-heading"
             >
-              The World Weather Application
+              World Weather
             </h1>
           </div>
           <a
@@ -46,15 +41,10 @@ Object {
         <div
           class="header-heading-container"
         >
-          <img
-            alt="clouds-and-sun.png"
-            class="logo-image"
-            src="clouds-and-sun.png"
-          />
           <h1
             class="header-heading"
           >
-            The World Weather Application
+            World Weather
           </h1>
         </div>
         <a
