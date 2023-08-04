@@ -75,7 +75,7 @@
 ## 🚀 Live Demo <a name="live-demo"></a>
 
 - ✅ Live Demo [Link](https://world-weather-app.onrender.com)
-- ✅ Video [Link](https://drive.google.com/file/d/1wp1H1ncSPwZVLj3nHGlbDQwaohRcAOZn/view?usp=sharing)
+- ✅ Video [Link](https://youtu.be/cwYuNrqoreI)
 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
@@ -213,7 +213,7 @@ If you like this project, kindly drop a start for the [repository](https://githu
 ## 🙏 Acknowledgments <a name="acknowledgements"></a>
 
 
-**I would like to thank my family and Microvese for their support.**
+**I would like to thank my family and Microvese for their support. And special thanks to Nelson Sakwa the author of the original design**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
