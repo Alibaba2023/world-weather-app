@@ -74,7 +74,8 @@
 
 ## 🚀 Live Demo <a name="live-demo"></a>
 
-- ✅ soon...
+- ✅ Live Demo [Link](https://world-weather-app.onrender.com)
+- ✅ Video [Link](https://drive.google.com/file/d/1wp1H1ncSPwZVLj3nHGlbDQwaohRcAOZn/view?usp=sharing)
 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
