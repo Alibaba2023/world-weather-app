@@ -172,7 +172,7 @@ npx eslint .
 
 ## 👥 Authors <a name="authors"></a>
 
-👤 **Mohammad Anwar Hussaini**
+👤 **Ali Baba Hussaini**
 
 - GitHub: [@Alibaba2023](https://github.com/Alibaba2023)
 - Twitter: [@AliBabaHu2023](https://twitter.com/AliBabaHu2023)
