@@ -3,7 +3,7 @@
   padding: 0;
   box-sizing: border-box;
   scroll-behavior: smooth;
-  color: white;
+  color: black;
 }
 
 @font-face {
@@ -23,7 +23,7 @@
 
 body {
   font-family: 'Lato', sans-serif;
-  background-color: rgb(255, 1, 213);
+  background-color: rgba(255, 255, 255, 0.5);
 }
 
 html {
@@ -36,7 +36,8 @@ html {
   align-items: center;
   height: 15vh;
   padding: 1rem 15%;
-  background-color: rgba(248, 33, 98, 0.7);
+  background-color: rgb(219, 240, 249);
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
 }
 
 .header-heading-container {
@@ -46,7 +47,7 @@ html {
 
 .home-link {
   font-size: 2rem;
-  color: white;
+  color: black;
   text-decoration: none;
 }
 
@@ -69,14 +70,13 @@ html {
 .country-card {
   border-radius: 9px;
   overflow: hidden;
-  background-color: rgba(248, 33, 98, 0.7);
+  background-color: rgba(168, 223, 250, 0.2);
   padding: 2rem;
 }
 
 .country-name {
-  color: white;
+  color: black;
   margin-top: 2rem;
-  text-decoration: underline rgba(248, 33, 115, 0.9);
   font-size: 2rem;
 }
 
@@ -100,7 +100,7 @@ html {
   justify-content: center;
   justify-items: center;
   align-items: center;
-  background-color: rgba(248, 33, 98, 0.7);
+  background-color: rgba(168, 223, 250, 0.2);
   padding: 2rem;
   border-radius: 9px;
 }
