@@ -1,0 +1,161 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+  color: black;
+}
+
+@font-face {
+  font-family: 'Lato';
+  src: url('./assets/Lato-Regular.ttf');
+}
+
+@font-face {
+  font-family: 'Lato';
+  src: url('./assets/Lato-Light.ttf');
+}
+
+@font-face {
+  font-family: 'Lato';
+  src: url('./assets/Lato-Bold.ttf');
+}
+
+body {
+  font-family: 'Lato', sans-serif;
+  background-color: rgba(255, 255, 255, 0.5);
+}
+
+html {
+  font-size: 62.5%;
+}
+
+.nav-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 15vh;
+  padding: 1rem 15%;
+  background-color: rgb(219, 240, 249);
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+}
+
+.header-heading-container {
+  display: flex;
+  align-items: center;
+}
+
+.home-link {
+  font-size: 2rem;
+  color: black;
+  text-decoration: none;
+}
+
+.header-heading {
+  font-size: 4rem;
+}
+
+.logo-image {
+  width: 6rem;
+}
+
+.country-card-container {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  column-gap: 2rem;
+  row-gap: 2rem;
+  padding: 3rem 10%;
+}
+
+.country-card {
+  border-radius: 9px;
+  overflow: hidden;
+  background-color: rgba(168, 223, 250, 0.2);
+  padding: 2rem;
+}
+
+.country-name {
+  color: black;
+  margin-top: 2rem;
+  font-size: 2rem;
+}
+
+.flag-image {
+  width: 100%;
+  height: 10rem;
+}
+
+.weather-card-container {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  padding: 3rem 10%;
+  column-gap: 0;
+  column-gap: 2rem;
+  row-gap: 3rem;
+}
+
+.weather-card {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  justify-content: center;
+  justify-items: center;
+  align-items: center;
+  background-color: rgba(168, 223, 250, 0.2);
+  padding: 2rem;
+  border-radius: 9px;
+}
+
+.box-3 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.state-name {
+  font-size: 2.2rem;
+}
+
+.weather-date {
+  font-size: 1.8rem;
+  margin-top: 1rem;
+}
+
+.weather-temp {
+  font-size: 2rem;
+}
+
+.weather-image {
+  font-size: 2rem;
+}
+
+.weather-condition {
+  font-size: 2rem;
+}
+
+@media screen and (max-width: 1100px) {
+  .country-card-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+
+@media screen and (max-width: 850px) {
+  .country-card-container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  html {
+    font-size: 52%;
+  }
+}
+
+@media screen and (max-width: 650px) {
+  .weather-card-container {
+    grid-template-columns: 1fr;
+  }
+
+  html {
+    font-size: 42%;
+  }
+}
